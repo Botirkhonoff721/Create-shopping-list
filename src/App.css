@@ -1,0 +1,36 @@
+.Container {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(99, 99, 241);
+  border: 2px solid #fff ;
+  margin: 0 auto;
+}
+input {
+  background-color: rgb(132, 132, 236);
+  width: 250px;
+  height: 30px;
+  border: 2px solid blue;
+  outline: none;
+  color: antiquewhite;
+  font-family: fantasy;
+  font-size: larger;
+}
+button {
+  width: 100px;
+  height: 35px;
+  background: rgba(27, 25, 25, 0.26);
+  color: wheat;
+  border: 3px solid  white;
+  outline: none;
+  margin: 0;
+  margin-right: 15px;
+}
+
+button :active {
+  background: rgb(2, 2, 78);
+}
+span {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
